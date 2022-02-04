@@ -7,6 +7,13 @@ public class SafeBox {
     public SafeBox() {
     }
 
+    public SafeBox(String material, String content, int password, boolean key) {
+        material = this.material;
+        content = this.content;
+        password = this.password;
+        key = this.key;
+    }
+
     public String getContent() {
         return content;
     }

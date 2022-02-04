@@ -8,6 +8,14 @@ public class Restaurant {
     public Restaurant() {
     }
 
+    public Restaurant(String name, int idEmployees, String menu, float income, boolean open) {
+        name = this.name;
+        idEmployees = this.idEmployees;
+        menu = this.menu;
+        income = this.income;
+        open = this.open;
+    }
+
     public int getIdEmployees() {
         return idEmployees;
     }

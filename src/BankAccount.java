@@ -9,6 +9,15 @@ public class BankAccount {
     public BankAccount(){
     }
 
+    public BankAccount(int accountNumber, boolean activated, String nameUser, int idUser, float balance, String entity) {
+        accountNumber = this.accountNumber;
+        activated = this.activated;
+        nameUser = this.nameUser;
+        idUser = this.idUser;
+        balance = this.balance;
+        entity = this.entity;
+    }
+
     public boolean getActivated() {
         return activated;
     }

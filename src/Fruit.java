@@ -6,6 +6,12 @@ public class Fruit {
     public Fruit() {
     }
 
+    public Fruit(String name, float averageWeight, String[] colors) {
+        name = this.name;
+        averageWeight = this.averageWeight;
+        colors = this.colors;
+    }
+
     public String[] getColors() {
         return colors;
     }

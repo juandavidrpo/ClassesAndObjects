@@ -11,6 +11,15 @@ public class Person {
     public Person() {
     }
 
+    public Person(String name, String lastName1, String lastName2, Date dateBirth, float height, int idNumber) {
+        name = this.name;
+        lastName1 = this.lastName1;
+        lastName2 = this.lastName2;
+        dateBirth = this.dateBirth;
+        height = this.height;
+        idNumber = this.idNumber;
+    }
+
     public String getName() {
         return name;
     }

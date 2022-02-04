@@ -10,6 +10,14 @@ public class CreditCard {
     public CreditCard() {
     }
 
+    public CreditCard(String entity, int number, String user, Date expirationDate, boolean activated) {
+        entity = this.entity;
+        number = this.number;
+        user = this.user;
+        expirationDate = this.expirationDate;
+        activated = this.activated;
+    }
+
     public int getNumber() {
         return number;
     }
